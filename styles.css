@@ -93,5 +93,26 @@ h1 {
     background: linear-gradient(90deg, #b8b8b8, #e0e0e0, #b8b8b8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 1.2em;
+    }
 }
