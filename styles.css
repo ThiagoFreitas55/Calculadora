@@ -95,24 +95,71 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 980px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 4.2em;
+    }
+
+    .container {
+       
+        width: 50vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 4.2em;
+    }
+
+    .container {
+       
+        width: 60vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    button {
+        width: 100%;
+        font-size: 4.2em;
+    }
+
+    .container {
+       
+        width: 80vw;
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
     h1 {
         font-size: 3em;
     }
 
     button {
         width: 100%;
-        font-size: 1.5em;
-    }
-}
-
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 2em;
-    }
-
-    button {
-        width: 100%;
         font-size: 1.2em;
+    }
+
+    .container {
+       
+        width: 80vw;
+        height: 60vh;
     }
 }
